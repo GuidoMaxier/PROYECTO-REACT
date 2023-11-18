@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 
 import TaskList from './components/TaskList';
@@ -15,7 +15,7 @@ function App() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
 
- 
+
   return (
     <>
       <div className="container mt-5">

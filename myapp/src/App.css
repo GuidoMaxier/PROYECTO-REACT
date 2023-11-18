@@ -1,18 +1,73 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.text-center {
   text-align: center;
 }
 
-
-.card {
-  padding: 2em;
+.mt-5 {
+  margin-top: 5rem;
 }
 
-.read-the-docs {
-  color: #888;
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
 
+.col-md-8 {
+  flex: 0 0 66.6666667%;
+  max-width: 66.6666667%;
+}
 
+.mt-4 {
+  margin-top: 4rem;
+}
+
+/* Style for the task form */
+form {
+  margin-top: 20px;
+}
+
+/* Style for the task list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
