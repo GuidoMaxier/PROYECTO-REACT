@@ -5,7 +5,7 @@ const TaskForm = ({ tasks, setTasks }) => {
 
   const addTask = () => {
     if (taskName.trim() !== '') {
-      setTasks([...tasks, { id: tasks.length + 1, name: taskName, completed: false }]);
+      setTasks([...tasks, { id: new Date(), name: taskName, completed: false }]);
       setTaskName('');
     }
   };

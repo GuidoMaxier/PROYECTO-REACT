@@ -15,14 +15,7 @@ function App() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
 
-  // useEffect(() => {
-    // Recuperar la lista de tareas almacenada en localStorage al cargar la página
-  //   const storedTasks = localStorage.getItem('tasks');
-  //   if (storedTasks) {
-  //     setTasks(JSON.parse(storedTasks));
-  //   }
-  // }, []);
-
+ 
   return (
     <>
       <div className="container mt-5">
