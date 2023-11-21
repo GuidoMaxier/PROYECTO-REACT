@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(187, 44, 44, 0.1);
+  background: linear-gradient(to right, #979797, #adacac, #b5bbbe);
+  box-shadow: 0 0 10px rgba(79, 98, 160, 0.1);
   border-radius: 8px;
   padding: 20px;
 }
