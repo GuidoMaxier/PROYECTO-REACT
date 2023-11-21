@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className="container mt-5">
-        <h1 className="text-center">Lista de Tareas</h1>
+        <h1 className="text-center">Crea tu lista de Tareas</h1>
 
         <div className="row justify-content-center">
           <div className="col-md-6">

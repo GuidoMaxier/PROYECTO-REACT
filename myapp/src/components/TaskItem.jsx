@@ -10,8 +10,11 @@ const TaskItem = ({ task, completeTask, deleteTask }) => {
 
   return (
     // <li className={`list-group-item ${isCompleted ? 'completed' : ''}`}>
-    <li style={{ textDecoration: isCompleted ? 'line-through' : 'none' }}>
-      {task.name}
+    <li>
+      <p style={{ textDecoration: isCompleted ? 'line-through' : 'none' }}>
+        {task.name}
+      </p>
+      
       <button className="btn btn-success mx-2" onClick={handleComplete}>
         Completar
       </button>
