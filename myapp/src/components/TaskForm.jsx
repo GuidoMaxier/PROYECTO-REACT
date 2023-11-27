@@ -6,7 +6,7 @@ const TaskForm = ({ tasks, setTasks }) => {
   const addTask = () => {
     if (taskName.trim() !== '') {
       setTasks([...tasks, { id: new Date(), name: taskName, completed: false }]);
-      setTaskName('');
+      setTaskName(''); //reseteamo a una cadena vacia
     }
   };
 
