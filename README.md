@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/Sinches-Hugo-Ivan/prac/assets/84039185/1418809a-eff3-4056-90c1-d378db78912b"></p>
+<p align="center"><img src="https://github.com/GuidoMaxier/PROYECTO-REACT/assets/84039185/bfd2eacc-781d-4863-8ba1-539e7ca77f9f"></p>
 <h1 align="center">"TRABAJO PRACTICO INTEGRADOR  FINAL REACT"</h1>
 
 
